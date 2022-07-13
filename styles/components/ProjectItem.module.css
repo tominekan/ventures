@@ -1,0 +1,38 @@
+@import "../fonts.css";
+
+.project_item {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid white;
+    width: 95%;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    box-shadow: 1px 5px 15px grey;
+    margin-bottom: 5vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.project_image {
+    display: block;
+    width: 20%;
+    margin-left: 2vw;
+    margin: 5px;
+}
+
+.project_text {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 15vw;
+    inline-size: 50vw;
+}
+
+.project_title {
+    font-size: 3vw;
+    font-weight: 600;
+    margin: 0px;
+}

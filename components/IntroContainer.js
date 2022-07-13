@@ -19,7 +19,7 @@ const IntroContainer = () => {
             </div>
 
             <div className={style.image_container}>
-                <Image src={IntroImage}></Image>
+                <Image src={IntroImage} alt="Image of Starred Folder"></Image>
             </div>
 
         </div>
