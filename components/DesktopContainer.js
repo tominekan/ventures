@@ -1,18 +1,13 @@
 import IntroContainer from "./IntroContainer";
-import Navbar from "./Navbar";
 import ProjectContainer from "./ProjectContainer";
-
-// CSS
-import style from "../styles/components/DesktopContainer.module.css"
-
+import SiteTemplate from "./SiteTemplate";
 
 const DesktopContainer = () => {
     return (
-        <div className={style.desktop_container}>
-            <Navbar />
+        <SiteTemplate>
             <IntroContainer />
             <ProjectContainer />
-        </div>
+        </SiteTemplate>
     )
 }
 

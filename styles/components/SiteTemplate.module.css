@@ -1,8 +1,7 @@
-.desktop_container {
+.site_template_container {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     background: url("../../public/Background.png");
-    backdrop-filter: blur(25px);
 }
