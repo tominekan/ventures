@@ -1,0 +1,23 @@
+@import "../fonts.css";
+
+.navbar {
+    width: 95%;
+    border: 2px solid white;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    margin-bottom: 7vh;
+    margin-top: 3vh;
+    box-shadow: 2px 5px 15px grey;
+}
+
+.logo_container {
+    width: 20%;
+    margin-left: 20px;
+}
+
+
+.navbar-links {
+    font-family: "Plus Jakarta Sans", sans-serif;
+}

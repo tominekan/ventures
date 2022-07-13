@@ -1,15 +1,27 @@
+import Image from "next/image";
+import style from "../styles/components/IntroContainer.module.css"
+import IntroImage from "../public/fav-folder-front-color.png";
+import IntroButton from "./IntroButton";
+
 const IntroContainer = () => {
+
     return (
-        <div className="intro_container">
-            <div className="intro_descrption">
-                <div className="intro_text">
-                    <h1>
+        <div className={style.intro_container}>
+            <div className={style.intro_description}>
+                <div className={style.intro_text}>
+                    <h1 className={style.text}>
                         Check some of my
                         <br/>
-                        <b>Mini Ventures</b>
+                        <b className={style.bold}>Mini Ventures</b>
                     </h1>
                 </div>
+                <IntroButton />
             </div>
+
+            <div className={style.image_container}>
+                <Image src={IntroImage}></Image>
+            </div>
+
         </div>
     )
 }

@@ -1,0 +1,41 @@
+@import "../fonts.css";
+
+.intro_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 95%;
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
+    box-shadow: 1px 5px 15px grey;
+}
+
+.intro_description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.intro_text {
+    text-align: center;
+}
+
+
+.text {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 600;
+    font-size: 5vw;
+}
+
+.bold {
+    /* Extra Bold*/
+    font-weight: 800;
+}
+
+.image_container {
+    width: 50%;
+    display: block;
+}
