@@ -1,12 +1,11 @@
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import SiteTemplate from "../components/SiteTemplate";
+import AboutContainer from "../components/AboutContainer";
 
 const About = () => {
     return (
-       <>
-       <Navbar />
-       <Footer />
-       </>
+        <SiteTemplate>
+            <AboutContainer />
+        </SiteTemplate>
     )
 }
 

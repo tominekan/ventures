@@ -1,6 +1,12 @@
+import SiteTemplate from "../components/SiteTemplate";
+import MotiveContainer from "../components/MotiveContainer";
+
+
 const Motive = () => {
     return (
-        <h1>Motive</h1>
+        <SiteTemplate>
+            <MotiveContainer />
+        </SiteTemplate>
     )
 }
 
