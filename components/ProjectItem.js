@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
 import style from "../styles/components/ProjectItem.module.css";
-import displayImage from "../public/default_image.png";
 
 const ProjectItem = (props) => {
     return (
@@ -14,7 +13,7 @@ const ProjectItem = (props) => {
                 ></Image>
             </div>
             <div className={style.project_text}>
-                <Link href={"/" + props.projectName}>
+                <Link href={"/" + props.projectID}>
                     <a>
                         <p className={style.project_title}>{props.projectTitle}</p>
                     </a>
