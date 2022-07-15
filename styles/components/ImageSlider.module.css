@@ -1,0 +1,39 @@
+.image_slider {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly; 
+}
+
+.image_container {
+    width: 55vh;
+    height: 55vh;
+    position: relative;
+}
+
+
+.image_container .image {
+    width: 100%;
+    height: 100%;
+    position: relative !important;
+}
+.progress_icon {
+    width: 64px;
+    height: 64px;
+}
+
+.button {
+    height: 60vh;
+    background: none;
+    border: none;
+}
+
+.button:hover {
+    background-color: rgba(161,144,209, 0.3);
+    border-radius: 5px;
+}
+
+
+.button:active {
+    background-color: rgba(121,107,161, 0.6);
+}

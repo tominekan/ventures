@@ -1,0 +1,35 @@
+@import "../fonts.css";
+
+.details_text {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    text-align: center;
+    margin-top: 0vh;
+}
+
+.details_container {
+    height: 85vh;
+    width: 95%;
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
+    box-shadow: 1px 5px 15px grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.close_button {
+    margin-left: 2vh;
+    width: 56px;
+    height: 56px;
+}
+
+.close_button:hover {
+    background-color: rgba(161,144,209, 0.3);
+    border-radius: 7.5px;
+}
+
+.close_button:active {
+    background-color: rgba(121,107,161, 0.6);
+}
