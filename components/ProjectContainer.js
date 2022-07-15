@@ -9,7 +9,7 @@ import background from "../public/Background.png";
 export const projects = [
     {
         id: "wild_tale",
-        image: defaultImage,
+        image: blogPhoto,
         title: "A Wild Tale", 
         content: "I like tests, give me a little bit of a chance so that i can test you too.",
         moreImages: [defaultImage, background, blogPhoto],
