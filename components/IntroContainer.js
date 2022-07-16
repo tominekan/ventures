@@ -3,7 +3,7 @@ import style from "../styles/components/IntroContainer.module.css"
 import IntroImage from "../public/fav-folder-front-color.png";
 import IntroButton from "./IntroButton";
 
-const IntroContainer = () => {
+const IntroContainer = (props) => {
 
     return (
         <div className={style.intro_container}>
@@ -15,7 +15,7 @@ const IntroContainer = () => {
                         <b className={style.bold}>Mini Ventures</b>
                     </h1>
                 </div>
-                <IntroButton />
+                <IntroButton do={props.do}/>
             </div>
 
             <div className={style.image_container}>

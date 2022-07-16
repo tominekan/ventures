@@ -1,8 +1,12 @@
 import style from "../styles/components/IntroButton.module.css";
 
-const IntroButton = () => {
+const IntroButton = (props) => {
     return (
-        <button className={style.button}>See More</button>
+        <button
+        className={style.button}
+        onClick={() => props.do()}>
+            See More
+        </button>
     )
 }
 

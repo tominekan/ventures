@@ -29,6 +29,7 @@
     flex-direction: column;
     margin-right: 15vw;
     inline-size: 50vw;
+    font-size: 2vw;
 }
 
 .project_title {

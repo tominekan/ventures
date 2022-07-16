@@ -32,9 +32,9 @@ export const projects = [
     }
 ]
 
-const ProjectContainer = () => {
+const ProjectContainer = (props) => {
     return (
-        <div className={style.project_container}>
+        <div className={style.project_container} ref={props.reference}>
             <h1 className={style.project_section}>Projects</h1>
             {projects.map((project) => {
                 return (

@@ -4,11 +4,13 @@ import styles from "../styles/components/SiteTemplate.module.css";
 
 const SiteTemplate = (props) => {
     return (
-        <div className={styles.site_template_container}>
-            <Navbar/>
-            {props.children}
-            <Footer />
-        </div>
+        <>
+            <div className={styles.site_template_container}>
+                <Navbar/>
+                {props.children}
+                <Footer />
+            </div>
+        </>
     )
 }
 
