@@ -4,10 +4,9 @@ import style from "../styles/components/ProjectContainer.module.css";
 // IMPORT THEM IMAGES BABYYYYY
 
 // Old Blog
-import oldHome from "../public/OLD_BLAHG/MUSINGS_PAGE.jpeg";
+import oldHome from "../public/OLD_BLAHG/MUSINGS_PAGE.png";
 import oldAbout from "../public/OLD_BLAHG/musings_about_page.png";
 import oldPost from "../public/OLD_BLAHG/post_page.png";
-import defaultImage from "../public/default_image.png";
 
 // Porfolio Website
 import portfolioHome from "../public/PORTFOLIO_WEBSITE/intro_page.png";
