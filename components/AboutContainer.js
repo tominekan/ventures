@@ -17,7 +17,9 @@ const AboutContainer = () => {
             </div>
 
         <div className={style.about_image} style={{borderRadius: 15, overflow: "hidden"}}>
-            <Image src={blogImage}></Image>
+            <Image
+            src={blogImage}
+            alt="Image of me confused"></Image>
         </div>
         </div>
     )

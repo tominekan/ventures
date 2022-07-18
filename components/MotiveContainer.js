@@ -14,7 +14,9 @@ const MotiveContainer = () => {
             </div>
 
         <div className={style.about_image}>
-            <Image src={medalImage}></Image>
+            <Image
+            src={medalImage}
+            alt="Nice Medal For Me"></Image>
         </div>
         </div>
     )
