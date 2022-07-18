@@ -4,12 +4,17 @@ import { MdClose } from "react-icons/md";
 import { projects } from "./ProjectContainer";
 import Image from "next/image";
 import Link from "next/link";
-
+import blogPhoto from "../public/BLOG_PHOTO_OF_ME.png";
+import logo from "../public/Logo.png";
 
 const DetailsContainer = (props) => {
     const result = projects.find((project) => props.project === project.id);
 
-    const {title, content, moreImages} = result;
+    const {title, content, moreImages} = result || {
+        title: "Content Not Loaded",
+        content: "Here are some default pictures for u tho",
+        moreImages: [blogPhoto, logo]
+    };
 
 
     let imageItems = moreImages.map((image) => {
