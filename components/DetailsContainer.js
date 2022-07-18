@@ -17,7 +17,8 @@ const DetailsContainer = (props) => {
             <Image
             src={image}
             layout="fill"
-            objectFit="contain" />
+            objectFit="contain"
+            key={image}/>
         )
     });
 
