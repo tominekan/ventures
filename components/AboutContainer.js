@@ -8,9 +8,9 @@ const AboutContainer = () => {
             <div className={style.about_text}>
                 <h1 className={style.about_section}>About Me</h1>
                 <p>
-                    I'm a high school student who enjoys coding and vibin'.
-                    I'm currently getting into hackathons, blogging, freelancing, 
-                    and hand-crafting website idesigns. I don't have any specific passions within coding, 
+                    I&apos;m a high school student who enjoys coding and vibin&apos;.
+                    I&apos;m currently getting into hackathons, blogging, freelancing, 
+                    and hand-crafting website idesigns. I don&apos;t have any specific passions within coding, 
                     but want to learn as much as possible. My grades are passable 
                     (by my partway-perfectionist standards), and I consider myself decently athletic.
                 </p>
