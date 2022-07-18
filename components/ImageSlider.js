@@ -4,7 +4,7 @@ import style from "../styles/components/ImageSlider.module.css";
 
 const ImageSlider = (props) => {
     const [index, setIndex] = useState(0);
-    const currentImage = props.items[index];
+    const [currentImage, setCurrentImage] = useState(props.items[index]);
 
     const prevItem = (list) => {
         if (index === 0) {
@@ -23,7 +23,7 @@ const ImageSlider = (props) => {
     }
 
     useEffect(() => {
-        currentImage = props.items[index];
+        setCurrentImage(props.items[index]);
     }, [index])
 
     return (
