@@ -37,3 +37,9 @@
 .button:active {
     background-color: rgba(121,107,161, 0.6);
 }
+
+@media only screen and (max-width: 650px) {
+    .button {
+        height: 55vh;
+    }
+}

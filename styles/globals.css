@@ -14,3 +14,9 @@ a {
 * {
   box-sizing: border-box;
 }
+
+
+body {
+  background: url("../public/Background.png");
+  background-size: cover;
+}

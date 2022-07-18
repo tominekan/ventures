@@ -27,64 +27,8 @@
     margin-right: 50px;
 }
 
-
-.navbar_link {
-    display: flex;
-    justify-content: space-around;
-    padding-right: 10px;
-}
-
-.button_toggle {
-    background: none;
-    border: none;
-    position: fixed;
-    left: 3vw;
-    top: 3vh;
-}
-
-.icon_toggle {
-    width: 36px;
-    height: 36px;
-}
-
-.close_icon {
-    width: 36px;
-    height: 36px;
-    color: white;
-}
-
-.navbar_container {
-    display: flex;
-    flex-direction: column;
-    z-index: 2;
-    margin-bottom: 10vh;
-}
-
-.mobile_logo {
-    width: 50%;
-}
-
-.mobile_navbar {
-    padding-top: 20vh;
-    display: flex;
-    flex-direction: column;
-    width: 100vw;
-    height: 100vh;
-    background-color: #796ba1;
-}
-
-.mobile_text {
-    font-family: "Plus Jakarta Sans", sans-serif;
-    font-size: 2vh;
-    font-weight: 600;
-    margin-right: 50px;
-    color: white;
-}
-
-.list_links {
-    list-style-type: none;
-}
-
-.list_item {
-    margin-bottom: 2vh;
+@media only screen and (max-width: 650px) {
+    .navbar_text {
+        font-size: 2vh;
+    }
 }

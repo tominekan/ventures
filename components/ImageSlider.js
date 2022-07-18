@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import {MdChevronLeft, MdChevronRight, MdHeight} from "react-icons/md";
+import {MdChevronLeft, MdChevronRight} from "react-icons/md";
 import style from "../styles/components/ImageSlider.module.css";
 
 const ImageSlider = (props) => {

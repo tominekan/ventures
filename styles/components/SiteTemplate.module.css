@@ -3,9 +3,4 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-
-    /* Make sure that background fits */
-    background: url("../../public/Background.png");
-    background-size: cover;
 }
-
