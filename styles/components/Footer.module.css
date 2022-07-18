@@ -7,8 +7,16 @@
     font-size: 1.5vw;
 }
 
+/* Smol Screen */
 @media only screen and (max-width: 650px) {
     .footer {
         font-size: 1.5vh;
+    }
+}
+
+/* Big Screen */
+@media only screen and (min-width: 1450px) {
+    .footer{
+        font-size: 0.75vw;
     }
 }

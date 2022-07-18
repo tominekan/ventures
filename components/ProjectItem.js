@@ -5,7 +5,7 @@ import style from "../styles/components/ProjectItem.module.css";
 const ProjectItem = (props) => {
     return (
         <div className={style.project_item}>
-            <div className={style.project_image} style={{borderRadius: "10px", overflow: "hidden"}}>
+            <div className={style.project_image} style={{borderRadius: 10, overflow: "hidden"}}>
                 <Image
                 src={props.projectImage}
                 alt={"Image of " + props.projectTitle}

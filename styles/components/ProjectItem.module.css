@@ -19,6 +19,7 @@
     width: 20%;
     margin-left: 2vw;
     margin: 5px;
+    object-fit: cover;
 }
 
 .project_text {
@@ -39,6 +40,7 @@
     margin: 0px;
 }
 
+/* Smol Screen */
 @media only screen and (max-width: 650px) {
     .project_title {
         font-size: 2vh;
@@ -46,5 +48,32 @@
 
     .project_text {
         font-size: 1.25vh;
+    }
+
+}
+
+/* Big Screen */
+@media only screen and (min-width: 1450px) {
+    .project_title {
+        font-size: 2vw;
+    }
+
+    .project_text {
+        font-size: 1vw;
+    }
+
+    .project_item {
+        width: 70%;
+    }
+}
+
+/* Regular Screen */
+@media only screen and (min-width: 650px) {
+    .project_image {
+        height: 95%;
+    }
+
+    .project_item {
+        height: 20vh;
     }
 }

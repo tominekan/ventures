@@ -48,3 +48,18 @@
         font-size: 5vh;
     }
 }
+
+
+@media only screen and (min-width: 1450px) {
+    .about_section {
+        font-size: 3.5vw;
+    }
+
+    .about_container {
+        width: 70%;
+    }
+    
+    .about_text {
+        inline-size: 40%;
+    }
+}

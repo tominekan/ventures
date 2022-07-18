@@ -27,8 +27,21 @@
     margin-right: 50px;
 }
 
+/* Smol Screen */
 @media only screen and (max-width: 650px) {
     .navbar_text {
         font-size: 2vh;
+    }
+}
+
+
+/* Big Screen */
+@media only screen and (min-width: 1450px) {
+    .navbar_text {
+        font-size: 1vw;
+    }
+
+    .navbar {
+        width: 70%;
     }
 }
