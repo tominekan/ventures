@@ -71,11 +71,11 @@
 /* Regular Screen */
 @media only screen and (min-width: 650px) {
     .project_image {
-        height: 60%;
+        height: 45%;
         margin-left: 20px;
     }
 
     .project_item {
-        height: 30vh;
+        height: 25vh;
     }
 }
