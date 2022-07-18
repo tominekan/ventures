@@ -40,6 +40,25 @@
     display: block;
 }
 
+.button {
+    border: none;
+    background-color: #9484C3;
+    color: white;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 15px #796ba1;
+}
+
+.button:hover {
+    background-color: #a190d1;
+}
+
+.button:active {
+    background-color: #796ba1;
+}
+
 
 /* Big Screen */
 @media only screen and (min-width: 1450px) {
@@ -49,5 +68,10 @@
 
     .intro_container {
         width: 70%;
+    }
+
+    .button {
+        width: 115.5px;
+        height: 30px;
     }
 }

@@ -1,7 +1,6 @@
 import Image from "next/image";
 import style from "../styles/components/IntroContainer.module.css"
 import IntroImage from "../public/fav-folder-front-color.png";
-import IntroButton from "./IntroButton";
 
 const IntroContainer = (props) => {
 
@@ -15,7 +14,11 @@ const IntroContainer = (props) => {
                         <b className={style.bold}>Mini Ventures</b>
                     </h1>
                 </div>
-                <IntroButton do={props.do}/>
+                <button
+                className={style.button}
+                onClick={() => props.do()}>
+                    See More
+                </button>
             </div>
 
             <div className={style.image_container}>
