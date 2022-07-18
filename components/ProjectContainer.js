@@ -71,7 +71,8 @@ const ProjectContainer = (props) => {
                     <ProjectItem
                     projectID={project.id}
                     projectImage={project.image}
-                    projectTitle={project.title}>
+                    projectTitle={project.title}
+                    key={project.id}>
                         {project.content}
                     </ProjectItem>
                 )
